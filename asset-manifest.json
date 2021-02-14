@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/favourite-movies-series/static/css/main.b9c0d28a.chunk.css",
+    "main.css": "/favourite-movies-series/static/css/main.2de00db5.chunk.css",
     "main.js": "/favourite-movies-series/static/js/main.ee3c55eb.chunk.js",
     "main.js.map": "/favourite-movies-series/static/js/main.ee3c55eb.chunk.js.map",
     "runtime-main.js": "/favourite-movies-series/static/js/runtime-main.70e9ec5b.js",
@@ -8,13 +8,13 @@
     "static/js/2.781938d2.chunk.js": "/favourite-movies-series/static/js/2.781938d2.chunk.js",
     "static/js/2.781938d2.chunk.js.map": "/favourite-movies-series/static/js/2.781938d2.chunk.js.map",
     "index.html": "/favourite-movies-series/index.html",
-    "static/css/main.b9c0d28a.chunk.css.map": "/favourite-movies-series/static/css/main.b9c0d28a.chunk.css.map",
+    "static/css/main.2de00db5.chunk.css.map": "/favourite-movies-series/static/css/main.2de00db5.chunk.css.map",
     "static/js/2.781938d2.chunk.js.LICENSE.txt": "/favourite-movies-series/static/js/2.781938d2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.70e9ec5b.js",
     "static/js/2.781938d2.chunk.js",
-    "static/css/main.b9c0d28a.chunk.css",
+    "static/css/main.2de00db5.chunk.css",
     "static/js/main.ee3c55eb.chunk.js"
   ]
 }
