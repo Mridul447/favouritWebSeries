@@ -68,3 +68,40 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+$ git init
+$ git add .
+$ git commit -m "add: initialCommit"
+$ git remote add origin https://github.com/abhinandanmishra1/favourite-movies-series.git
+$ git push origin master
+
+If you’ve already developed a React app, follow the next set of instructions. Before that, make sure your React app code is already pushed to your GitHub account.
+
+For the first step, install the gh-pages package as a dev-dependency of the React app.
+npm install gh-pages --save-dev
+
+For the second step, open the package.json in your React application and add the homepage property.
+Define homepage’s value to be the string http://{username}.github.io/{repo-name}, where username is your GitHub username, and {repo-name} is the name of the GitHub repository.
+Since my GitHub username is “sabesansathananthan” and the name of my GitHub repository is “React-Deploy”, I added the property as mentioned below:
+“homepage”: “http://abhinandanmishra1.github.io/favourite-movies-series"
+
+
+For the third step, add the deploy script commands in your project’s package.json file.
+In the package.json file, add the predeploy property and the deploy property with the existing scripts property. Your package.json scripts should like this:
+
+
+"scripts": { 
+ "start": "react-scripts start",
+ "predeploy": "npm run build",
+ "deploy": "gh-pages -d build",
+ "build": "react-scripts build",
+ "test": "react-scripts test",
+ "eject": "react-scripts eject"
+},
+
+
+The predeploy script initiates after running our deploy script, which bundles our application for deployment.
+Now, deploy your application to GitHub Pages. For that, run the following commands in the integrated PowerShell/terminal in VS Code.
+
+npm run deploy

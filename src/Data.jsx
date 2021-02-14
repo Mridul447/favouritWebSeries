@@ -24,7 +24,7 @@ const Data = [
         description:"Munna Bhaiya and Kaleen bhaiya shaked hands with Guddu Bhaiya."
     },
     {
-        imgsrc:"https://images.wallpapersden.com/image/download/amazon-mirzapur_bGlmaGyUmZqaraWkpJRmbmdlrWZlbWU.jpg", 
+        imgsrc:"https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/ad94707082ed6130b6fb93dc052597d561e623b0920e3c9757f230b1a700d4d8._V_SX1080_.jpg", 
         title:"Mirzapur Season 2", 
         link:"https://www.netflix.com/in/watch/80077368?multiTitleId=81253580",
         description:"Mirzapur is an Indian action crime thriller web television series on Amazon Prime Video.Pankaj tripathi is a great actor."
