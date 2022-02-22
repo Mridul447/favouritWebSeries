@@ -1,4 +1,5 @@
-{ "homepage": "http://abhinandanmishra1.github.io/favourite-movies-series",
+{
+  "homepage": "http://abhinandanmishra1.github.io/favourite-movies-series",
   "name": "netflix",
   "version": "0.1.0",
   "private": true,
